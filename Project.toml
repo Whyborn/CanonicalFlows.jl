@@ -1,0 +1,24 @@
+name = "CanonicalFlows"
+uuid = "c43c359c-c11b-448b-9534-8636ef208a2a"
+version = "1.0.0-DEV"
+authors = ["Lachlan Whyborn <lachlan.s.whyborn@gmail.com> and contributors"]
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[weakdeps]
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+
+[extensions]
+CanonicalFlowsGLMakieExt = "GLMakie"
+
+[compat]
+GLMakie = "0.13"
+LinearAlgebra = "1.12.0"
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
